@@ -14,6 +14,11 @@ module.exports = function (env) {
 		// Reference: https://docs.railway.app/develop/variables#railway-provided-variables
 		PUBLIC_URL: `https://${env.RAILWAY_STATIC_URL}`,
 
+		// Cache
+		CACHE_ENABLED: "true",
+		CACHE_STORE: "redis",
+		CACHE_REDIS: env.CACHE_REDIS,
+
 		// Database variables from Railway PostgreSQL Plugin
 		// Reference: https://docs.railway.app/plugins/postgresql
 		DB_CLIENT: "pg",
