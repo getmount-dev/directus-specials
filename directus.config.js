@@ -14,6 +14,12 @@ module.exports = function (env) {
 		// Reference: https://docs.railway.app/develop/variables#railway-provided-variables
 		PUBLIC_URL: `https://${env.RAILWAY_STATIC_URL}`,
 
+		// CORS
+		CORS_ENABLED: "true",
+		CORS_ORIGIN: "*",
+		CORS_METHODS: "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+		CORS_HEADERS: "Content-Type, Authorization",
+
 		// Cache
 		CACHE_ENABLED: "true",
 		CACHE_STORE: "redis",
