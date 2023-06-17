@@ -16,7 +16,11 @@ module.exports = function (env) {
 
 		// CORS
 		CORS_ENABLED: "true",
-		CORS_ORIGIN: "*",
+		CORS_ORIGIN: [
+			"http://localhost:3333",
+			"*.specialscomedy.com",
+			"specialscomedy.com",
+		],
 		CORS_METHODS: "GET, POST, PUT, PATCH, DELETE, OPTIONS",
 		CORS_HEADERS: "Content-Type, Authorization",
 
