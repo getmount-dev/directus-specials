@@ -21,7 +21,7 @@ module.exports = function (env) {
 		DB_USER: env.PGUSER,
 		DB_PASSWORD: env.PGPASSWORD,
 		STORAGE_LOCATIONS: "cloudinary",
-		STORAGE_CD_DRIVER: "cloudinary",
+		STORAGE_CLOUDINARY_DRIVER: "cloudinary",
 
 		// AWS
 		//STORAGE_S3_KEY: env.STORAGE_S3_KEY,
