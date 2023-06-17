@@ -6,6 +6,8 @@ module.exports = function (env) {
 		KEY: env.KEY,
 		SECRET: env.SECRET,
 
+		MAX_PAYLOAD_SIZE: "1000mb",
+
 		// Reference: https://docs.railway.app/deploy/exposing-your-app
 		PORT: env.PORT,
 
