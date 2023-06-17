@@ -20,6 +20,7 @@ module.exports = function (env) {
 			"http://localhost:3333",
 			"*.specialscomedy.com",
 			"specialscomedy.com",
+			"https://cloud.hasura.io",
 		],
 		CORS_METHODS: "GET, POST, PUT, PATCH, DELETE, OPTIONS",
 		CORS_HEADERS: "Content-Type, Authorization",
