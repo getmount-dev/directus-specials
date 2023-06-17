@@ -8,6 +8,9 @@ module.exports = function (env) {
 
 		MAX_PAYLOAD_SIZE: "1000mb",
 
+		CORS_ENABLED: true,
+		CORS_ORIGIN: true,
+
 		// Reference: https://docs.railway.app/deploy/exposing-your-app
 		PORT: env.PORT,
 
