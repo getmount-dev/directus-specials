@@ -19,6 +19,7 @@ module.exports = function (env) {
 		CORS_ORIGIN: [
 			"http://localhost",
 			"http://localhost:*",
+			"http://localhost:3333",
 			"*.specialscomedy.com",
 			"specialscomedy.com",
 			"https://cloud.hasura.io",
