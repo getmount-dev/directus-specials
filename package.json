@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Directus on railway example",
   "scripts": {
-    "start": "npx directus start"
+    "start": "npx directus start",
+    "dev": "CONFIG_PATH=directus.config.js directus start",
+    "bootstrap": "directus bootstrap"
   },
   "engines": {
     "node": ">=18"

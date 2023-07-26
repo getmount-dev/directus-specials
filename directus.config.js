@@ -1,4 +1,5 @@
 module.exports = function (env) {
+	console.log("🚀 ~ file: directus.config.js:2 ~ env:", env.DATABASE_URL)
 	return {
 		// User inputs from railway starter button
 		ADMIN_EMAIL: env.ADMIN_EMAIL,
@@ -12,7 +13,7 @@ module.exports = function (env) {
 		PORT: env.PORT,
 
 		// Reference: https://docs.railway.app/develop/variables#railway-provided-variables
-		PUBLIC_URL: `https://${env.RAILWAY_STATIC_URL}`,
+		PUBLIC_URL: env.PUBLIC_URL || `https://${env.RAILWAY_STATIC_URL}`,
 
 		// CORS
 		CORS_ENABLED: "true",
@@ -27,7 +28,7 @@ module.exports = function (env) {
 		CORS_HEADERS: "Content-Type, Authorization",
 
 		// Cache
-		CACHE_ENABLED: "true",
+		CACHE_ENABLED: env.CACHE_ENABLED || "true",
 		CACHE_STORE: "redis",
 		CACHE_REDIS: env.CACHE_REDIS,
 
