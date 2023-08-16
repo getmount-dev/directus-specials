@@ -19,7 +19,6 @@ module.exports = function (env) {
 		CORS_ENABLED: "true",
 		CORS_ORIGIN: [
 			"http://localhost:3333",
-			"https://*.specialscomedy.com",
 			"https://staging.specialscomedy.com",
 			"https://specials-web-app-development.up.railway.app",
 			"https://cms.specialscomedy.com",
