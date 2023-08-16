@@ -23,6 +23,7 @@ module.exports = function (env) {
 			"https://specials-web-app-development.up.railway.app",
 			"https://cms.specialscomedy.com",
 			"https://specialscomedy.com",
+			"https://fb594955.specialscomedy.com",
 			"https://cloud.hasura.io",
 		],
 		CORS_METHODS: "GET, POST, PUT, PATCH, DELETE, OPTIONS",
