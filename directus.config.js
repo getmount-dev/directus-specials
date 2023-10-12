@@ -43,7 +43,7 @@ module.exports = function (env) {
 		DB_USER: env.PGUSER,
 		DB_PASSWORD: env.PGPASSWORD,
 		STORAGE_LOCATIONS: "s3",
-		STORAGE_CLOUDINARY_DRIVER: "s3",
+		STORAGE_S3_DRIVER: "s3",
 
 		// AWS
 		STORAGE_S3_KEY: env.STORAGE_S3_KEY,
