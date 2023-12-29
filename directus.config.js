@@ -1,5 +1,4 @@
 module.exports = function (env) {
-	console.log("🚀 ~ file: directus.config.js:2 ~ env:", env.DATABASE_URL)
 	return {
 		// User inputs from railway starter button
 		ADMIN_EMAIL: env.ADMIN_EMAIL,
