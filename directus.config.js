@@ -25,6 +25,7 @@ module.exports = function (env) {
 			"https://fb594955.specialscomedy.com",
 			"https://cloud.hasura.io",
 			"https://specials-web-app-production.up.railway.app",
+			"https://specials-app-production.up.railway.app",
 		],
 		CORS_METHODS: "GET, POST, PUT, PATCH, DELETE, OPTIONS",
 		CORS_HEADERS: "Content-Type, Authorization",
