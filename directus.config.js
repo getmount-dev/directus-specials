@@ -29,7 +29,8 @@ module.exports = function (env) {
 			"https://specials-app-production.up.railway.app",
 			"https://app.specialscomedy.com",
 			"https://www.specialscomedy.com",
-			"https://tv.standupclub.ru"
+			"https://tv.standupclub.ru",
+			"https://app.kleosy.com"
 		],
 		CORS_METHODS: "GET, POST, PUT, PATCH, DELETE, OPTIONS",
 		CORS_HEADERS: "Content-Type, Authorization",
